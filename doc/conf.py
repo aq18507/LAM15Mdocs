@@ -56,7 +56,7 @@ month = today.month
 day = today.day
 
 # General information about the project.
-project = 'GATORcell Documentation'
+project = 'LAM15MRcell Documentation'
 copyright = f'{year}, RMH Aerospace'
 author = 'Rafael Heeb'
 
