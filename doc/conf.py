@@ -58,13 +58,13 @@ day = today.day
 # General information about the project.
 project = 'LAM15MRcell Documentation'
 copyright = f'{year}, RMH Aerospace'
-author = 'Rafael Heeb'
+author = 'Dr Rafael Heeb'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 
-major_version = '6'
+major_version = '0'
 minor_version = f'{year}.{month}.{day}'
 
 # The short X.Y version.
@@ -106,7 +106,8 @@ html_extra_path = ['../extra/']
 # documentation.
 #
 html_theme_options = {
-    'logo_only': True,
+    # 'logo_only': True,
+    'logo_only': False,
     'display_version': True,
 }
 
