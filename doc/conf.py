@@ -96,9 +96,9 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
-html_logo = '../_static/GATOR_logo_v1.png'
-html_favicon = '../_static/GATOR_logo_v2.png'
+# html_theme = 'sphinx_rtd_theme'
+# html_logo = '../_static/GATOR_logo_v1.png'
+# html_favicon = '../_static/GATOR_logo_v2.png'
 html_extra_path = ['../extra/']
 
 # Theme options are theme-specific and customize the look and feel of a theme
