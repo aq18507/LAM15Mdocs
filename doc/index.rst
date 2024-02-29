@@ -13,10 +13,11 @@ The complete GATORcell code can be found here `LAM15M GitHub page <https://githu
    :caption: Contents:
 
    Working_Principle
+   Syntax
+   Scripts
+   Depreciated_Scripts
 ..    Compatability
-..    Syntax
 ..    ShapeFile
-..    Scripts
 ..    Depreciated_Scripts
 ..    GMSH
 
