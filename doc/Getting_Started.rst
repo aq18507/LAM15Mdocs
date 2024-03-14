@@ -18,10 +18,12 @@ OCTAVE is sometimes used instead of MATLAB. This was never tested on a version o
 Useful additional software
 ++++++++++++++++++++++++++
 
-# ``GitHub``: Since this is still in active development it is useful to utilise **GitHub** to pull the current and most up-to-date version as new modules might be added, performance increased and errors eliminated.
+* ``GitHub``: Since this is still in active development it is useful to utilise **GitHub** to pull the current and most up-to-date version as new modules might be added, performance increased and errors eliminated.
 
 How to install Lam15M
 +++++++++++++++++++++
+
+There are two methods that can be used to get the scripts. Note that it might be advantageous to use **GitHub** as this is the best method to obtain the most recent version of ``LAM15M``.
 
 * Used the download button in GitHub to get this repository located in the top right hand corner.
 * Use the Git on to fetch this repository. Note that there is a difference in how this works between Windows and MacOS.
