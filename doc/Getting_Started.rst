@@ -30,7 +30,7 @@ Windows
 -------
 
 .. warning::
-    Git is not installed by default on Windows. To check run ``git -v`` in the command prompt. If it returns a version then it is installed. If not, install GitHub `Git Download and install guide <https://github.com/git-guides/install-git>`_`.
+    Git is not installed by default on Windows. To check run ``git -v`` in the command prompt. If it returns a version then it is installed. If not, install GitHub `Git Download and install guide <https://github.com/git-guides/install-git>`_.
 
 1. Go to the directory in which the config files should reside.
 2. Clone this git repository into an easily accessible location (ideally somewhere on the ``C`` drive on Windows).
