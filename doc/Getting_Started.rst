@@ -30,12 +30,12 @@ Windows
 -------
 
 .. warning::
-    Git is not installed by default on Windows. To check run ``git -v`` in the command prompt. If it returns a version then it is installed. If not, install GitHub [Git Download and install guide](https://github.com/git-guides/install-git).
+    Git is not installed by default on Windows. To check run ``git -v`` in the command prompt. If it returns a version then it is installed. If not, install GitHub `Git Download and install guide <https://github.com/git-guides/install-git>`_`.
 
 1. Go to the directory in which the config files should reside.
 2. Clone this git repository into an easily accessible location (ideally somewhere on the ``C`` drive on Windows).
 3. Right-click and select ``Open Git Bash here``.
-4. Use the ``git clone https://github.com/aq18507/DaVisPP.git`` command and hit enter. Now the directory is cloned.
+4. Use the ``git clone https://github.com/aq18507/LAM15M.git`` command and hit enter. Now the directory is cloned.
 
 Mac
 -----
@@ -45,4 +45,4 @@ Mac
 
 1. Open the terminal program.
 2. Use the change directory ``cd /[your directory]/`` command to move to the directory of your choice.
-3. Use the ``git clone https://github.com/aq18507/DaVisPP.git`` command and hit enter. Now the directory is cloned.
+3. Use the ``git clone https://github.com/aq18507/LAM15M.git`` command and hit enter. Now the directory is cloned.
