@@ -18,3 +18,10 @@ Material
 Strains to failure are in percentage strain (% :math:`\epsilon`), which, when considering a unit length of material, can be converted into actual strain (:math:`\epsilon`) by dividing by 100. :math:`\epsilon` can be converted into microstrain (:math:`\mu \epsilon`) by multiplying :math:`\epsilon` by :math:`1 \times 10^6`. By converting % :math:`\epsilon` to :math:`\epsilon`, the strengths to failure can also be calculated, should stress be needed. Additionally, coefficients of thermal expansion are included to calculate residual thermal stresses if a temperature difference is included. Residual thermal strains are 'used up' strain from the strains to failure, therefore any thermal loading will reduce the strains to failure of the lamina. A key is included that describes each material code.
 
 ``Material.mlx`` does not need to be edited by the user unless updated material properties are given.
+
+Laminate
+********
+
+``Laminate.mlx`` is a script that defines the laminate to be analysed. The first section defines the stacking sequence, with the 'first' ply considered to be the 'bottom' of the laminate. The angles are given in degrees. Either manual input can be used (*i.e.* writing ``lam.angle = [45, -45, -45, 45];`` for a :math:`[\pm45]_s` laminate) or code that defines an array (*i.e.* :math:`lam.angle = ones(1,4)*90;` for a :math:`[90_4]` laminate). Similarly, the laminate material choice is defined by the user. The laminate ply thickness is defined based on the material choice. A quick sanity check is carried out at the end of the script to ensure the arrays are the same length.
+
+``Laminate.mlx`` does need to be edited by the user to define the laminate under investigation.
