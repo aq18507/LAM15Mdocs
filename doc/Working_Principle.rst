@@ -16,7 +16,7 @@ Edit three *input* scripts (``Details.mlx``, ``Material.mlx``, ``Laminate.mlx``)
 
 The purpose of the script is to aid learning, therefore automation *is not* recommended. The 'slow' process of editing the three input scripts, running the program, checking the code and results is key to the design process. Using this tool as a black box is not the intended use-case. The calculation functions can be investigated by using the debugging function within Matlab~\cite{MATLAB_Debug}. This *is* recommended to cross-reference with hand calculations and compliment learning in lectures. Not fully understanding 'how' a code works is dangerous, particularly when written by well-intentioned but imperfect PhD students...
 
-All equations used within the code can be found in the lecture notes. Some extra resources that were used for this script can be found in Reference~\cite{voyiadjis_mechanics_2005}. 
+All equations used within the code can be found in the lecture notes. Some extra resources that were used for this script can be found in Reference [voyiadjis_mechanics_2005]_. 
 
 Excel
 *****

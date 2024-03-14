@@ -14,7 +14,6 @@ The complete GATORcell code can be found here `LAM15M GitHub page <https://githu
 
    Getting_Started
    Working_Principle
-   Syntax
    Scripts
    References
    .. Depreciated_Scripts
