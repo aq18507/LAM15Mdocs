@@ -16,11 +16,8 @@ The complete GATORcell code can be found here `LAM15M GitHub page <https://githu
    Working_Principle
    Syntax
    Scripts
-   Depreciated_Scripts
-..    Compatability
-..    ShapeFile
-..    Depreciated_Scripts
-..    GMSH
+   References
+   .. Depreciated_Scripts
 
  
 .. .. Indices and tables
