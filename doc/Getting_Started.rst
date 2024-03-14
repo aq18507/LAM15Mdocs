@@ -19,3 +19,30 @@ Useful additional software
 ++++++++++++++++++++++++++
 
 #. ``GitHub``: Since this is still in active development it is useful to utilise **GitHub** to pull the current and most up-to-date version as new modules might be added, performance increased and errors eliminated.
+
+How to install Lam15M
++++++++++++++++++++++
+
+#. Used the download button in GitHub to get this repository located in the top right hand corner.
+#. Use the Git on to fetch this repository. Note that there is a difference in how this works between Windows and MacOS.
+
+Windows
+-------
+
+.. warning::
+    Git is not installed by default on Windows. To check run ``git -v`` in the command prompt. If it returns a version then it is installed. If not, install GitHub [Git Download and install guide](https://github.com/git-guides/install-git).
+
+1. Go to the directory in which the config files should reside.
+2. Clone this git repository into an easily accessible location (ideally somewhere on the ``C`` drive on Windows).
+3. Right-click and select ``Open Git Bash here``.
+4. Use the ``git clone https://github.com/aq18507/DaVisPP.git`` command and hit enter. Now the directory is cloned.
+
+Mac
+-----
+
+.. note::
+    Git is installed by default on MacOS. To check the version run ``git -v`` in the terminal.
+
+1. Open the terminal program.
+2. Use the change directory ``cd /[your directory]/`` command to move to the directory of your choice.
+3. Use the ``git clone https://github.com/aq18507/DaVisPP.git`` command and hit enter. Now the directory is cloned.
