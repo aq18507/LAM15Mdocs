@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Working principle &mdash; LAM15MRcell Documentation beta:0.2024.3.14 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=3b06bd61"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Scripts" href="Scripts.html" />
+    <link rel="prev" title="Getting Started" href="Getting_Started.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            LAM15MRcell Documentation
+          </a>
+              <div class="version">
+                beta:0.2024.3.14
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Getting_Started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Working principle</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#matlab">Matlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#excel">Excel</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Scripts.html">Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">LAM15MRcell Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Working principle</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Working_Principle.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="working-principle">
+<h1>Working principle<a class="headerlink" href="#working-principle" title="Link to this heading"></a></h1>
+<p>The basic premise of the script is that the student will inputs variables that the script takes and calculates stresses and strains from. There are two possible ways of inputting data:</p>
+<ol class="arabic simple">
+<li><p><strong>MATLAB</strong></p></li>
+<li><p><strong>Excel</strong></p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please note that the <strong>Excel</strong> functionality is not actively developed and for that reason, it must be used with caution. Any results should be compared with the equivalent <strong>MATLAB</strong> functionality.</p>
+</div>
+<section id="matlab">
+<h2>Matlab<a class="headerlink" href="#matlab" title="Link to this heading"></a></h2>
+<p>Edit three <em>input</em> scripts (<code class="docutils literal notranslate"><span class="pre">Details.mlx</span></code>, <code class="docutils literal notranslate"><span class="pre">Material.mlx</span></code>, <code class="docutils literal notranslate"><span class="pre">Laminate.mlx</span></code>). The student will then check the printed data (the function <code class="docutils literal notranslate"><span class="pre">DataPrint.mlx</span></code>). After the data is checked, <em>calculation functions</em> are carried out for: the material properties (the function <code class="docutils literal notranslate"><span class="pre">ABDCalc.mlx</span></code>); the thermal analysis (the function <code class="docutils literal notranslate"><span class="pre">Thermal.mlx</span></code>); the load analysis (the function <code class="docutils literal notranslate"><span class="pre">Loads.mlx</span></code>); and hygro analysis (the function <code class="docutils literal notranslate"><span class="pre">Moisture.mlx</span></code>). The flow of the program is shown in Figure <strong>X</strong>.</p>
+<p>The purpose of the script is to aid learning, therefore automation <em>is not</em> recommended. The ‘slow’ process of editing the three input scripts, running the program, checking the code and results is key to the design process. Using this tool as a black box is not the intended use-case. The calculation functions can be investigated by using the debugging function within Matlab~cite{MATLAB_Debug}. This <em>is</em> recommended to cross-reference with hand calculations and compliment learning in lectures. Not fully understanding ‘how’ a code works is dangerous, particularly when written by well-intentioned but imperfect PhD students…</p>
+<p>All equations used within the code can be found in the lecture notes. Some extra resources that were used for this script can be found in Reference <a class="reference internal" href="References.html#voyiadjis-mechanics-2005" id="id1"><span>[voyiadjis_mechanics_2005]</span></a>.</p>
+</section>
+<section id="excel">
+<h2>Excel<a class="headerlink" href="#excel" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is not currently actively developed</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Getting_Started.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Scripts.html" class="btn btn-neutral float-right" title="Scripts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, RMH Aerospace.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
